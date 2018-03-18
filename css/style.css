@@ -5,9 +5,7 @@ body {
 .container {
   width: 100%;
   background: rgba(0,0,0,0.5);
-  margin: 0px;
   padding: 80px;
-  border-radius: 0px;
     line-height: 1.5;
   background: url(http://mt1.baidu.com/timg?shitu&quality=100&sharpen=100&er=&imgtype=0&wh_rate=null&size=h120&sec=1521340686&di=d60b1f1bc8e2c9e941955d9b0f7478cd&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fimage%2F%2570%2569%2563%2Fitem%2Fa9d3fd1f4134970a2c42a82e99cad1c8a7865df9.jpg);
   color: white;
@@ -36,24 +34,32 @@ h1{
 
 h2 {
 	margin-top: -30px;
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
+
+p{
+  font-size: 0.8em
+}
+
 .part-a{
   margin-top: 80px;
   margin-bottom: 40px;
-  padding: 10px;
+  vertical-align:middle;
+  text-align: center;
   border-radius: 10px;
     line-height: 1.5;
 }
 .middle-part{
+  display:flex;
+  display: -weblit-flex;
+   text-align: center;
   margin: 40px;
   padding: 70px;
-  border-radius: 0px;
     line-height: 1.5;
 }
 
 
-#btnapply{
+#applybtn{
   width:100px;
   padding:10px;
   height:30px;
@@ -61,7 +67,9 @@ h2 {
   margin:15px; 
 }
 
-.row{
-  width：33%
-  border-left: 50px
+.box{
+    margin: 10px;
+  padding: 10px;
+  border-radius: 0px;
+    line-height: 1.5;
 }
